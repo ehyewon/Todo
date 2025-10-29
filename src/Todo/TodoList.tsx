@@ -1,7 +1,7 @@
 import type { Todo } from '../App'
 import TodoItem from './TodoItem'
 
-// ✅ TodoList 컴포넌트
+// TodoList 컴포넌트
 // App에서 전달받은 todos 배열을 기반으로 TodoItem들을 렌더링
 export default function TodoList({
     todos,

@@ -1,11 +1,9 @@
 import { useState, type FormEvent, type ChangeEvent } from "react"
 
-// ✅ 새로운 할 일을 입력받는 컴포넌트
 export default function TodoInsert({ onAdd }: { onAdd: (text: string) => void }) {
-    // 입력창에 입력된 문자열을 상태로 관리
+
     const [value, setValue] = useState("")
 
-    // 입력값이 바뀔 때마다 value 상태 업데이트
     const onChange = (e: ChangeEvent<HTMLInputElement>) => {
         setValue(e.target.value)
     }

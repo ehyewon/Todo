@@ -1,6 +1,5 @@
 import React from 'react'
 
-// ✅ children을 받아 전체 앱을 감싸는 기본 레이아웃 컴포넌트
 export default function TodoTemplate({
     children,
 }: {

@@ -1,6 +1,5 @@
 import type { Todo } from '../App'
 
-// ✅ 각 할 일(todo)을 표시하는 컴포넌트
 export default function TodoItem({
     todo,
     onToggle,
